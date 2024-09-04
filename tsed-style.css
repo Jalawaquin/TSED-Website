@@ -1,12 +1,7 @@
-body{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.image-container{
+    text-align: center;
+    position: relative;
 }
-
-.background-size{
-
-    width: 45%;
-    height: auto;
+.text-container{
+    position: absolute;
 }
-
