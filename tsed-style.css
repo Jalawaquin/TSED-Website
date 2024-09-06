@@ -9,23 +9,11 @@
 }
 
 .link-container{
-    text-align: center;
-    right:.5vw;
-    top:14vh;
     position: absolute;
+    top: (11.3488vw + 11.3488vh);
+    right: calc(.56744vw + .56744vh);
 }
 .link-container img{
-    width: 20%;
-    height:auto;
-}
-
-@media screen and (min-width:1280px) {
-    .background img{
-        width: 30%;
-        height: auto;
-    }
-    .link-container img{
-        width: 20%;
-        height:auto;
-    }
+    max-width: 20%;
+    max-height: auto;
 }
