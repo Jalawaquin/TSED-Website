@@ -1,0 +1,26 @@
+.text-container{
+    position: absolute;
+    left: 20vw;
+    top: 15vh;
+    margin-right: 22vw;
+    font-size: 4.2vw;
+}
+
+@media (orientation:landscape){
+    .text-container{
+        top: 17vh;
+        left: 14vw;
+        margin-right: 14vw;
+        font-size: 4.2vh;
+    }
+}
+
+
+@media (min-width:1280px) and (orientation:landscape){
+    .text-container{
+        top: 22vh;
+        left: 24vw;
+        margin-right: 24vw;
+        font-size: 4.2vh;
+    }
+}

@@ -1,0 +1,31 @@
+.icon-container{
+    position: absolute;
+    top: 25dvh;
+    left: 38dvw;
+}
+.icon-container img{
+    width: 22dvw;
+    height: 14dvh;
+}
+
+@media (orientation: landscape){
+    .icon-container{
+        top: 35dvh;
+        left: 28dvw; 
+    }
+    .icon-container img{
+        width: 14dvw;
+        height: 22dvh;
+    }
+}
+
+@media (min-width:1280px) and (orientation: landscape){
+    .icon-container{
+        top: 37dvh;
+        left: 35dvw; 
+    }
+    .icon-container img{
+        width: 10dvw;
+        height: 17dvh;
+    }    
+}
