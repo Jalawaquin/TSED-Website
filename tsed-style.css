@@ -1,48 +1,34 @@
-a{
-    text-decoration: none;
+.background-container{
+    /*Div Settings */
+    position:fixed;
+    left: 0;
+    top:0;
+    min-width: 100%;
+    min-height: 100%;
+
+    /*Background-image settings */
+    background-image: url(BACKGROUND_IMAGE/tsed_background.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
 }
 
-.background{
-
-    text-align: center;
-    position: relative;
-}
-
-.background picture > *{
-    max-width: 95dvw;
-    max-height: 95dvh;
-}
-
-.link-container{
-    border: 1px solid green;
+.icon-container{
     position: absolute;
-    top: calc(10vw + 10vh);
-    margin-left: 35%;
-    margin-right: 35%;
+    top: 18dvh;
+    left: 38dvw;
+    border: 2px solid red;
 }
-
-.link-container img{
-    border: 1px solid #000;
-    border-color: red;
-    width: 55%;
-    height: auto;
+.icon-container img{
+    height: 20vw;
 }
 
 @media (orientation:landscape){
-    br{
-        display:none;
-    }
-    .link-container{
-        margin-left: 10%;
-        margin-right: 10%;        
-    }
-    .link-container img{
-        width: 20%;
-        height: auto;
+    .background-container{
+        background-image: url(BACKGROUND_IMAGE/tsed_background_landscape.png);
     }
 }
-
-
 
 
 
