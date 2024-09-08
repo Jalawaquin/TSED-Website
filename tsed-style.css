@@ -1,11 +1,12 @@
 a {
     text-decoration: none;
 }
+
 .background-container{
     /*Div Settings */
     position:fixed;
     left: 0;
-    top:0;
+    top: 0;
     min-width: 100%;
     min-height: 100%;
 
@@ -19,9 +20,8 @@ a {
 
 .icon-container{
     position: absolute;
-    top: 15dvh;
+    top: 25dvh;
     left: 38dvw;
-    border: 2px solid red;
 }
 .icon-container img{
     width: 22dvw;
@@ -37,8 +37,8 @@ a {
         background-image: url(BACKGROUND_IMAGE/tsed_background_landscape.png);
     }
     .icon-container{
-        top: 30dvh;
-        left: 21dvw; 
+        top: 35dvh;
+        left: 28dvw; 
     }
     .icon-container img{
         width: 14dvw;
@@ -52,8 +52,8 @@ a {
         background-size: 70% 85%;
     }
     .icon-container{
-        top: 30dvh;
-        left: 29dvw; 
+        top: 37dvh;
+        left: 35dvw; 
     }
     .icon-container img{
         width: 10dvw;

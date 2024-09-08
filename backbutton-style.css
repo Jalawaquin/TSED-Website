@@ -1,0 +1,32 @@
+.back-button{
+    all: unset;
+    cursor: pointer;
+    position: absolute;
+    top: 75dvh;
+    left: 39dvw;
+}
+.back-button img{
+    width: 20dvw;
+    height: 10dvh;
+}
+
+@media (orientation: landscape) {
+    .back-button{
+        top: 63dvh; 
+    }
+    .back-button img{
+        width: 20dvw;
+        height: 15dvh;
+    }
+}
+
+@media (min-width: 1280px) and (orientation: landscape){
+    .back-button{
+        top: 60dvh; 
+        left: 45dvw;
+    }
+    .back-button img{
+        width: 10dvw;
+        height: 10dvh;
+    }
+}
