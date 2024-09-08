@@ -1,7 +1,6 @@
 a {
     text-decoration: none;
 }
-
 .background-container{
     /*Div Settings */
     position:fixed;
@@ -12,7 +11,7 @@ a {
 
     /*Background-image settings */
     background-image: url(BACKGROUND_IMAGE/tsed_background.png);
-    background-size: 75% 85%;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -29,6 +28,7 @@ a {
     height: 14dvh;
 }
 
+/*mobile landscape view adjustments*/
 @media (orientation:landscape){
     br{
         display: none;
@@ -43,6 +43,13 @@ a {
     .icon-container img{
         width: 14dvw;
         height: 22dvh;
+    }
+}
+
+/* desktop landscape view adjustments*/
+@media (min-width:1280px) and (orientation:landscape){
+    .background-container{
+        background-size: 75% 90%;
     }
 }
 
