@@ -1,3 +1,7 @@
+a {
+    text-decoration: none;
+}
+
 .background-container{
     /*Div Settings */
     position:fixed;
@@ -8,7 +12,7 @@
 
     /*Background-image settings */
     background-image: url(BACKGROUND_IMAGE/tsed_background.png);
-    background-size: 100% 100%;
+    background-size: 75% 85%;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -16,17 +20,29 @@
 
 .icon-container{
     position: absolute;
-    top: 18dvh;
+    top: 15dvh;
     left: 38dvw;
     border: 2px solid red;
 }
 .icon-container img{
-    height: 20vw;
+    width: 22dvw;
+    height: 14dvh;
 }
 
 @media (orientation:landscape){
+    br{
+        display: none;
+    }
     .background-container{
         background-image: url(BACKGROUND_IMAGE/tsed_background_landscape.png);
+    }
+    .icon-container{
+        top: 30dvh;
+        left: 21dvw; 
+    }
+    .icon-container img{
+        width: 14dvw;
+        height: 22dvh;
     }
 }
 
