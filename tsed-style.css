@@ -49,7 +49,15 @@ a {
 /* desktop landscape view adjustments*/
 @media (min-width:1280px) and (orientation:landscape){
     .background-container{
-        background-size: 75% 90%;
+        background-size: 70% 85%;
+    }
+    .icon-container{
+        top: 30dvh;
+        left: 29dvw; 
+    }
+    .icon-container img{
+        width: 10dvw;
+        height: 17dvh;
     }
 }
 
