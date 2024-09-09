@@ -8,6 +8,19 @@
     height: 14dvh;
 }
 
+@keyframes spin{
+    0% {
+        transform:rotateY(0deg);
+    }
+    100% {
+        transform:rotateY(360deg);
+    }   
+}
+
+.icon-container img:hover{
+    animation: spin 2s linear infinite;
+}
+
 @media (orientation: landscape){
     .icon-container{
         top: 35dvh;
