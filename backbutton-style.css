@@ -10,6 +10,10 @@
     height: 10dvh;
 }
 
+.back-button img:hover{
+    content: url(NAV_IMAGES/back_button_hover.png)
+}
+
 @media (orientation: landscape) {
     .back-button{
         top: 63dvh; 
