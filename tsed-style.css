@@ -9,6 +9,7 @@ a {
 
 body{
     font-family: Silkscreen;
+    background-color: #fdfdfd;
 }
 
 .background-container{
@@ -20,7 +21,7 @@ body{
     min-height: 100%;
 
     /*Background-image settings */
-    background-image: url(BACKGROUND_IMAGE/tsed_background_lightmode_portrait.png);
+    background-image: url(BACKGROUND_IMAGE/tsed_lightmode_portrait.gif);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -33,7 +34,7 @@ body{
         display: none;
     }
     .background-container{
-        background-image: url(BACKGROUND_IMAGE/tsed_background_lightmode_landscape.png);
+        background-image: url(BACKGROUND_IMAGE/tsed_lightmode_landscape.gif);
     }
 }
 
