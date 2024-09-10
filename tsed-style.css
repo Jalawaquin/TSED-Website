@@ -12,6 +12,13 @@ body{
     background-color: #fdfdfd;
 }
 
+footer{
+    position: absolute;
+    bottom:0;
+    right: 0;
+    font-size: 2vw;
+}
+
 .background-container{
     /*Div Settings */
     position:fixed;
@@ -36,12 +43,18 @@ body{
     .background-container{
         background-image: url(BACKGROUND_IMAGE/tsed_lightmode_landscape.gif);
     }
+    footer{
+        font-size: 2vh;
+    }
 }
 
 /* desktop landscape view adjustments*/
 @media (min-width:1280px) and (orientation:landscape){
     .background-container{
         background-size: 70% 85%;
+    }
+    footer{
+        font-size: 2vh;
     }
 }
 
