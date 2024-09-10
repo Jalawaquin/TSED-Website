@@ -1,14 +1,17 @@
 .text-container{
     position: absolute;
+    border: .5vw solid black;
+    background-color: white;
     left: 20vw;
-    top: 15vh;
-    margin-right: 22vw;
+    top: 12vh;
+    margin-right: 20vw;
     font-size: 4.2vw;
+    
 }
 
 @media (orientation:landscape){
     .text-container{
-        top: 17vh;
+        top: 19vh;
         left: 14vw;
         margin-right: 14vw;
         font-size: 4.2vh;
@@ -18,9 +21,10 @@
 
 @media (min-width:1280px) and (orientation:landscape){
     .text-container{
-        top: 22vh;
-        left: 24vw;
-        margin-right: 24vw;
-        font-size: 4.2vh;
+        border: .2vw solid black;
+        top: 23vh;
+        left: 25vw;
+        margin-right: 25vw;
+        font-size: 3.5vh;
     }
 }

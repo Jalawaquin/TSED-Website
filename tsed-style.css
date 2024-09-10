@@ -20,7 +20,7 @@ body{
     min-height: 100%;
 
     /*Background-image settings */
-    background-image: url(BACKGROUND_IMAGE/tsed_background.png);
+    background-image: url(BACKGROUND_IMAGE/tsed_background_lightmode_portrait.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -33,7 +33,7 @@ body{
         display: none;
     }
     .background-container{
-        background-image: url(BACKGROUND_IMAGE/tsed_background_landscape.png);
+        background-image: url(BACKGROUND_IMAGE/tsed_background_lightmode_landscape.png);
     }
 }
 
