@@ -9,17 +9,16 @@ a {
 
 body{
     font-family: Silkscreen;
-    background-color: #fdfdfd;
 }
 
 footer{
     position: absolute;
     bottom:0;
     right: 0;
-    font-size: 2vw;
+    font-size: 2vw; 
 }
 
-.background-container{
+#background-container{
     /*Div Settings */
     position:fixed;
     left: 0;
@@ -28,7 +27,6 @@ footer{
     min-height: 100%;
 
     /*Background-image settings */
-    background-image: url(BACKGROUND_IMAGE/tsed_lightmode_portrait.gif);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -40,9 +38,6 @@ footer{
     br{
         display: none;
     }
-    .background-container{
-        background-image: url(BACKGROUND_IMAGE/tsed_lightmode_landscape.gif);
-    }
     footer{
         font-size: 2vh;
     }
@@ -50,7 +45,7 @@ footer{
 
 /* desktop landscape view adjustments*/
 @media (min-width:1280px) and (orientation:landscape){
-    .background-container{
+    #background-container{
         background-size: 70% 85%;
     }
     footer{
