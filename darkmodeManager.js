@@ -45,8 +45,9 @@ function darkMode(){
     var color;
 
     if(hour > 19 || hour < 6){
+
         landscape_image = "BACKGROUND_IMAGE/tsed_darkmode_landscape.gif";
-        portrait_image = "BACKGROUND_IMAGE/tsed_darkmode_portrait.gif"
+        portrait_image = "BACKGROUND_IMAGE/tsed_darkmode_portrait.gif";
         color = "black";
 
         backgroundOnOpen(landscape_image, portrait_image, color);
